@@ -163,9 +163,8 @@ def welcome(update, context, new_member):
         text="Olá, "
              + str(new_member.first_name)
              + "!"
-             + " Seja bem vindo ao Grupo OpenCV Brasil!\n"
-             + "\nLeia as regras do grupo: https://github.com/Grupo-OpenCV-BR/Regras"
-             + "\n\nConheça nosso repositório de conteúdo gratuito: https://github.com/Grupo-OpenCV-BR/tutoriais-tecnologia \n\n"
+             + " Seja bem vindo ao Grupo RabbitMQ Brasil!\n"
+             + "\nLeia as regras do grupo: https://github.com/rabbitmq-brasil/Regras"
              + generateOffensePerson.set_xing(new_member.first_name),
         parse_mode="Markdown",
     )
