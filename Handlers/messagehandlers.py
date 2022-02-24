@@ -161,10 +161,10 @@ def welcome(update, context, new_member):
     context.bot.send_message(
         chat_id=update.effective_chat.id,
         text="Olá, "
-             + str(new_member.first_name)
+             + str(new_member.username)
              + "!"
              + " Seja bem vindo ao Grupo RabbitMQ Brasil!\n"
-             + "\nLeia as regras do grupo: https://github.com/rabbitmq-brasil/Regras"
+             + "\nLeia as regras do grupo: https://github.com/rabbitmq-brasil/Regras \n\n"
              + generateOffensePerson.set_xing(new_member.first_name),
         parse_mode="Markdown",
     )
